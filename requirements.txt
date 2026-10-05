@@ -1,0 +1,10 @@
+# Python 3.11; training versions from the completed notebook check.
+pandas==2.0.3
+numpy==1.26.4
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.7.2
+xgboost==3.2.0
+lightgbm==4.7.0
+# Notebook interface; not part of the measured training-version set.
+jupyterlab>=4,<5

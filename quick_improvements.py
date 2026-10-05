@@ -3,6 +3,9 @@
 
 import pandas as pd
 import numpy as np
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
 
 def add_family_survival_feature(train, test):
     """
@@ -125,8 +128,8 @@ if __name__ == "__main__":
     print("=" * 50)
 
     # Load data
-    train = pd.read_csv('train.csv')
-    test = pd.read_csv('test.csv')
+    train = pd.read_csv(ROOT / 'data/train.csv')
+    test = pd.read_csv(ROOT / 'data/test.csv')
 
     # Apply improvements
     print("\n✅ Adding Family Survival Feature...")

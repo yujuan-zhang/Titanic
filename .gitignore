@@ -1,0 +1,7 @@
+
+# Local notebook environment and platform metadata
+/.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
